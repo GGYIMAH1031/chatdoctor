@@ -121,6 +121,4 @@ if current_state.cache is not None and current_state.cache.agent is not None:
                     "assistant", str(response), extra={"response": response}
                 )
 else:
-    st.info("In the side bar, select the ChatDoctor virtual agent (Agent_950acb55-056f-4324-957d-15e1c9b48695) to get started.\n")
-    st.info("Since this app is running on a free basic server, it could take from 2 to 10 minutes for the virtual agent to join you. \n Please be patient.")
-    
+    st.info("In the side bar,Select the ChatDoctor virtual agent (Agent_950acb55-056f-4324-957d-15e1c9b48695) to get started.")
